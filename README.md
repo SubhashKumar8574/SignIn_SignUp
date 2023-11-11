@@ -50,6 +50,8 @@ Console Details:
 
 ![Console results](https://github.com/SubhashKumar8574/SignIn_SignUp/assets/115339472/04f846d2-8f90-4b5b-882f-d1920c31611b)
 
+
+
 ## Install node_modules
 
 To install node_modules, run the following command
@@ -66,6 +68,7 @@ To run program, run the following command
 npm run dev
 ```
   ![npm run](https://github.com/SubhashKumar8574/SignIn_SignUp/assets/115339472/76ddd552-f661-4523-8fda-d3ffc6e515ae)
+
 
 ## Dependencies files
 
