@@ -47,10 +47,7 @@ app.post("/register", async (req, res) => {
                 confirmPassword: cPassword
             })
             console.log("The success part:", registerEmployee);
-
-            //  Here we call for token  generating which will generate in register.js
-            const token = await registerEmployee.generateAuthToken();
-            const registered = await registerEmployee.save();
+           const registered = await registerEmployee.save();
             res.status(201).render("index");
 
         } else {
@@ -70,8 +67,6 @@ app.post("/login", async (req, res) => {
         const useremail = await Register.findOne({ email: email });
         const isMatch = await bcrypt.compare(password, useremail.password);
         console.log("The password is", isMatch);
-        const token = await useremail.generateAuthToken();
-        console.log("The token part:", token);
         if (isMatch) {
             res.status(201).render("index");
             console.log("VAlid Login");
