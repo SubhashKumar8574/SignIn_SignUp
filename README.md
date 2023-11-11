@@ -7,6 +7,7 @@ Here we can do SignIn and SignUp connected with database.
 * It's SignIn through the database stored informations.
 * It's Check that user SignIn information is correct or not.
 * It's encrypted the UserPassowrd through bcryptjs hash function.
+* It's Decrypt and Encrypt the User password.
 
 
 ## Technologies used:
@@ -72,6 +73,6 @@ npm run dev
 
 ## Dependencies files
 
-![depencies](https://github.com/SubhashKumar8574/SignIn_SignUp/assets/115339472/3759dabe-7337-4532-a232-dfaf8c960f43)
+![dependencies](https://github.com/SubhashKumar8574/SignIn_SignUp/assets/115339472/3759dabe-7337-4532-a232-dfaf8c960f43)
 
 
